@@ -1,0 +1,43 @@
+ul li{
+    color:red;
+}
+table{
+    background-color: rosybrown;
+}
+
+th{
+    font-size: 22px;
+}
+
+td{
+    font-size: 12px;
+}
+#name{
+    color: snow;
+}
+#firstRow{
+    color: teal;
+}
+.age{
+    color:#74C1E8;
+}
+.firstRow{
+    color:turquoise;
+}
+div{
+    width: 50px;
+    height: 50px;
+}
+
+.div1{
+    background-color: rgba(248, 248, 0, 0.616);
+}
+.div2{
+    background-color:rgb(141, 44, 44);
+}
+.div3{
+    background-color: cadetblue;
+}
+#required{
+    color: red;
+}
