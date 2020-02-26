@@ -1,0 +1,19 @@
+body{
+    margin: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1, h2{
+    margin-bottom: 3px;
+}
+
+#poster{
+    width: 180px;
+    height: 250px;
+    float: right;
+    margin: 10px;
+    
+}
