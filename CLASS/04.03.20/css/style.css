@@ -1,0 +1,120 @@
+/*Pseudoclasses vs. pseudoelements*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* pseudo-element is a keyword added to a selector 
+that lets you style a specific part of the selected 
+element(s) */
+/*more pseudo-elements:
+:right
+:target
+:valid
+:hover*/
+
+/* pseudo-class is a keyword added to a selector 
+that specifies a special state of the selected 
+element(s). */
+
+[type="text"]::placeholder{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ::before  Vs :before */
+
+/* ::first-letter (:first-letter) */
+.text::first-letter{
+    color: brown;
+    font-weight: bold;
+    font-size: 32px;
+}
+/* ::placeholder  */
+
+/* display:none vs opacity: 0 */
+.plant{
+    height: 400px;
+    width: 500px;
+    box-shadow: 3px 3px 3px rgba(150,  245, 221, 0.6);
+    /* opacity: 0.5; */
+    filter: grayscale(70%);
+}
+.plant:hover{
+    transition: 1s ease-in-out;
+    width: 550px;
+    height: 450px;
+    filter: grayscale(0);
+    opacity:1;
+}
+
+/* vh & vw */
+
+.menu{
+    width: 25vw;
+    height: 100vh;
+    background-color: salmon;
+    
+}
+.main-text{
+    position: absolute;
+    top:0;
+    left: 15%;
+    margin: 0;
+    background-color: pink;
+    font-size: 2rem;
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* h1{
+    position: relative;
+    top:45%;
+
+} */
+
+.form-input{
+    width: 100vw;
+    height: 50vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: inline-block;
+    text-align: center;
+}
+
+.imageDiv{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center; 
+    background-color: rgb(252, 252, 144);   
+}
+p{
+    text-align: center;
+    background-color: rgb(46, 109, 80);
+}
+p::first-letter{
+    color: brown;
+    font-weight: bold;
+    font-size: 32px;
+}
+.last-img{
+    text-align: center;
+}
+
+.last-img img{
+    width: 35vw;
+    height: 250px;
+    border-radius: 30% 50% 90% 60%;
+    
+}
+
+/* visual content like img */
+/*  % , border-radius */
