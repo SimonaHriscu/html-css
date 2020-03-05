@@ -1,0 +1,68 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+} 
+body{
+    margin: auto 0;
+}
+
+/* background-image  */
+.main-text{
+    display: flex;
+    /* padding: 2rem; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(../img/fly.gif), url(../img/sky.png);
+    background-repeat: repeat-x, no-repeat;
+    background-position: center;
+    background-size: 70rem, cover;
+    
+}
+h1{
+    font-size: 3.5rem; 
+    font-weight: bold;
+}
+/* background-clip: border-box; */
+
+.ex1{
+    border: 4px black dashed;
+    padding: 3.5rem;
+    background: turquoise;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+.ex2{
+    border: 4px black dashed;
+    padding: 3.5rem;
+    background: turquoise;
+    /* background-size: 200px; */
+    background-repeat: repeat-x;
+    background-clip: content-box;
+}
+.ex3{
+    border: 4px black dashed;
+    padding: 3.5rem;
+    background: turquoise;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+.ex4{
+    color:transparent;
+    border: 4px black dashed;
+    background-image: url(../img/Canva\ -\ Green\ Plant.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+    
+    
+}
+
+
+/* npm live-server */
