@@ -1,0 +1,13 @@
+body{
+    background-color: #374363;
+ 
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/airplane.gif), url("https://media.giphy.com/media/j6B9ZZBqonrZcFimQe/source.gif") ,url("https://media.giphy.com/media/hcrfSTtvl93cA/source.gif"), url("https://media.giphy.com/media/ecZcMzTOK9KE0/giphy.gif");
+    background-size: 200vh, 40vh, 80vh, cover;
+    background-repeat: no-repeat;
+    background-position: top right, top left, bottom right, center;
+}
