@@ -1,8 +1,8 @@
 table{
     border: 3px black solid;
     border-spacing: 0;
-    width: 50vw;
-    height: 50vh;
+    width: 550px;
+    height: 550px;
 }
 table tr:nth-child(odd) :nth-child(even),
 table tr:nth-child(even) :nth-child(odd){
