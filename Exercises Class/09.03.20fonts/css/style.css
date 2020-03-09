@@ -1,0 +1,16 @@
+.superscript{
+    vertical-align: super;
+}
+.note{
+    font-weight: bold;
+}
+.holidays{
+    font-style: italic;
+}
+.source{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+
