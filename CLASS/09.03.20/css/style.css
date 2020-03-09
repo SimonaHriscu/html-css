@@ -24,6 +24,11 @@ h1{
     font-style: oblique 45deg;
     color: var(--color-font);
     padding: var(--padding-main-text);
+    direction: rtl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-shadow: 5px 5px 5px  orange,
+    3px 3px pink;
 }
 div{
     font-size: 20px;
@@ -38,6 +43,13 @@ p{
     font: 800 2em 'Handlee', cursive;
     line-height: 2em;
     text-align: center;
-    font-variant-caps: small-caps;
-    
+    text-transform: uppercase;
+    word-spacing: 20px;
 }
+
+i{
+   color: #ffd868; 
+   font-size: xx-large;
+   margin-left: 20px;
+}
+
