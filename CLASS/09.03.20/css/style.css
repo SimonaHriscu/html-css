@@ -1,0 +1,43 @@
+/*Typography*/
+/*How to add downloaded fonts*/
+@font-face{
+    font-family:'Handlee';
+    src: url(../fonts/Handlee-Regular.ttf);
+} 
+
+/*font-family*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/*setting up the root*/
+:root{
+    font-size: 16px;
+    --color-font:pink;
+    --padding-main-text: 20px;
+}
+/*font-size*/
+h1{
+    font-size: 1rem;
+    font-style: oblique 45deg;
+    color: var(--color-font);
+    padding: var(--padding-main-text);
+}
+div{
+    font-size: 20px;
+    
+}
+/*font-style*/
+p{
+    font-size: 2em;
+    font-family:'Handlee'; 
+    font-weight: 800;
+    /*How to write shortly*/
+    font: 800 2em 'Handlee', cursive;
+    line-height: 2em;
+    text-align: center;
+    font-variant-caps: small-caps;
+    
+}
