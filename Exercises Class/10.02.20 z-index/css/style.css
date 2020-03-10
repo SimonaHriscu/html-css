@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.photos{
+    width: 50vw;
+    height: 50vw;
+    margin: 0 auto;
+    position: relative;
+    top: 200px; 
+    
+}
+.photo1{
+    width: 250px;
+    height: 250px;
+    border: 1px  black solid;
+    padding: 2px 2px 30px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    transform: rotate(15deg);
+    filter: grayscale(0.9);
+   
+    
+}
+.photo2{
+    width: 250px;
+    height: 250px;
+    border: 1px  black solid;
+    padding: 2px 2px 30px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    transform: rotate(10deg);
+    filter: grayscale(0.9);
+    
+}
+.photo3{
+    width: 250px;
+    height: 250px;
+    border: 1px  black solid;
+    padding: 2px 2px 30px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 270px;
+    transform: rotate(0deg);
+    filter: grayscale(0.9);
+    
+}
+.photo4{
+    width: 250px;
+    height: 250px;
+    border: 1px  black solid;
+    padding: 2px 2px 30px;
+    background-color: white;
+    position: absolute;
+    top: -10px; 
+    left: 340px;
+    transform: rotate(-10deg);
+    filter: grayscale(0.9);
+    
+}
+
+.photo1:hover{
+    filter: none;
+    transition: ease-in-out 1s;
+    width: 300px;
+    height: 300px;
+    z-index:1;
+}
+.photo2:hover{
+    filter: none;
+    transition: ease-in 1s;
+    width: 300px;
+    height: 300px;
+    z-index:1;
+}
+.photo3:hover{
+    filter: none;
+    transition: ease-in 1s;
+    width: 300px;
+    height: 300px;
+    z-index:1;
+}
+.photo4:hover{
+    filter: none;
+    transition: ease-in 1s;
+    width: 300px;
+    height: 300px;
+    z-index:1;
+}
