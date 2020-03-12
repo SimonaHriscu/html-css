@@ -1,0 +1,16 @@
+@media screen and (max-width:600px){
+    body{
+    background-color: blue;
+    
+}
+.hamburger{
+    display: block;
+    background-color: black;
+    width:35px;
+    height: 5px;
+    margin: 6px 0;
+}
+.text-nav{
+    display: none;
+}
+}
