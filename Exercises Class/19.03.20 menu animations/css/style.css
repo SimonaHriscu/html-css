@@ -8,8 +8,15 @@
     --box-width: 3rem;
     --box-color: green;
   }
+
+body{
+  margin: 50px 50px;
+  height: 50vh;
+}
   
+  /* The x version */
   .x-menu {
+    margin: 50px auto;
     background-color: lightgray;
     width: 4rem;
     height: 3.5rem;
@@ -20,38 +27,62 @@
     z-index: -1;
     
   }
-  .x-menu:hover{
-    animation-name :rotate-container;
-    animation-duration: 1s;
-    animation-name: x-lines;
-    
-  }
-  @keyframes x-lines{
-      0%{
-          transform: rotate(180deg);
-      }
-  }
-  
-  .line {
+  .line{
     width: 3rem;
     height: 0.4rem;
     background-color: grey;
     border-radius: 20%;
   }
-  .line:hover {
-      background-color:black;
-      position: relative;
-      transform: rotate(60deg);
-      transition-timing-function: ease-in-out;
-      transition-duration: 1s;
-      
-      animation-name: x;
-  }
-  /* .line.sec:hover {
+  .x-menu:hover .line.one{
     background-color:black;
-    transform: rotate(-60deg);
-    transition-timing-function: ease-in-out;
+    transform: rotate(-45deg);
+    transition-duration: 1s; 
+    position: relative;
+    top:10px;
+  }
+  .x-menu:hover .line.sec{
+    background-color:black;
+    transform: rotate(45deg);
     transition-duration: 1s;
-  } */
+    position: relative;
+    bottom:10px;
+  }
+  
+  
+  
+  /* The cross version */
+
+  .cross-menu {
+    margin: 30px auto;
+    background-color: lightgray;
+    width: 4rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+    
+  }
+  .cross-menu:hover .cross.one{
+    background-color: black;
+    transition-duration: 2s; 
+    position: relative;
+    top:10px;
+  }
+  .cross-menu:hover .cross.sec{
+    background-color:black;
+    transform: rotate(90deg);
+    transition-duration: 1s; 
+    position: relative;
+    bottom:10px;
+  }
+  .cross{
+    width: 3rem;
+    height: 0.4rem;
+    background-color: grey;
+    border-radius: 20%;
+  }
+
 
   
