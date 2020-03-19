@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    font-size: 16px;
+    --box-width: 3rem;
+    --box-color: green;
+  }
+  
+  .x-menu {
+    background-color: lightgray;
+    width: 4rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+    
+  }
+  .x-menu:hover{
+    animation-name :rotate-container;
+    animation-duration: 1s;
+    animation-name: x-lines;
+    
+  }
+  @keyframes x-lines{
+      0%{
+          transform: rotate(180deg);
+      }
+  }
+  
+  .line {
+    width: 3rem;
+    height: 0.4rem;
+    background-color: grey;
+    border-radius: 20%;
+  }
+  .line:hover {
+      background-color:black;
+      position: relative;
+      transform: rotate(60deg);
+      transition-timing-function: ease-in-out;
+      transition-duration: 1s;
+      
+      animation-name: x;
+  }
+  /* .line.sec:hover {
+    background-color:black;
+    transform: rotate(-60deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+  } */
+
+  
