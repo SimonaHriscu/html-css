@@ -11,12 +11,16 @@
 
 body{
   margin: 50px 50px;
-  height: 50vh;
+  height: 70vh;
+  width: 70vw;
+ 
 }
+
+
   
   /* The x version */
   .x-menu {
-    margin: 50px auto;
+    margin:  30px auto;
     background-color: lightgray;
     width: 4rem;
     height: 3.5rem;
@@ -61,21 +65,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    z-index: -1;
-    
-  }
-  .cross-menu:hover .cross.one{
-    background-color: black;
-    transition-duration: 2s; 
-    position: relative;
-    top:10px;
-  }
-  .cross-menu:hover .cross.sec{
-    background-color:black;
-    transform: rotate(90deg);
-    transition-duration: 1s; 
-    position: relative;
-    bottom:10px;
+    z-index: -1; 
   }
   .cross{
     width: 3rem;
@@ -83,6 +73,144 @@ body{
     background-color: grey;
     border-radius: 20%;
   }
+  .cross-menu:hover .cross.one{
+    transform: translateY(10px);
+    transition-duration: 1s; 
+    background-color: black;
+    
+  }
+  .cross-menu:hover .cross.sec{
+    background-color:black;
+    transform: translate-Y(10px);
+    transform: rotate(90deg);
+    transition-duration: 1s; 
+    position: relative;
+    bottom:10px;
+  }
 
 
+  /* The cross-135 version */
+  .cross-135-menu {
+    margin: 30px auto;
+    background-color: lightgray;
+    width: 4rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+  }
+  .cross-135{
+    width: 3rem;
+    height: 0.4rem;
+    background-color: grey;
+    border-radius: 20%;
+  }
+  .cross-135-menu:hover .cross-135.one{
+    background-color: black;
+    transform: translateY(10px) rotate(135deg);
+    transition-duration: 1s;
+  }
+  .cross-135-menu:hover .cross-135.sec{
+    background-color: black;
+    transform: translateY(-10px) rotate(-135deg);
+    transition-duration: 1s;
+  }
+
+  /* The line version */
+  .one-line-menu {
+    margin: 30px auto;
+    background-color: lightgray;
+    width: 4rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+  }
+  .one-line{
+    width: 3rem;
+    height: 0.4rem;
+    background-color: grey;
+    border-radius: 20%;
+  }
+  .one-line-menu:hover .one-line.one{
+    background-color: black;
+    transform: translateY(10px) rotate(180deg);
+    transition-duration: 1s;
+  }
+  .one-line-menu:hover .one-line.sec{
+    background-color: black;
+    transform: translateY(-10px) rotate(-180deg);
+    transition-duration: 1s;
+  }
+
+  /* The revert version */
+  .revert-line-menu {
+    margin: 30px auto;
+    background-color: lightgray;
+    width: 4rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: -1;
+  }
+  .revert-line{
+    width: 3rem;
+    height: 0.4rem;
+    background-color: grey;
+    border-radius: 20%;
+  }
+  .revert-line-menu:hover .revert-line.one{
+    position: relative;
+    animation-name: revert;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  .revert-line-menu:hover .revert-line.sec{
+    position: relative;
+    animation-name: revert2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    
+  }
   
+  
+  @keyframes revert{
+    0% {
+      top: 0px;
+      transform: rotate(0deg);
+      background-color: grey;
+    }
+  
+    50% {
+      top: 10px;
+      transform: rotate(360deg);
+      background-color: black;
+    }
+    100%{
+      top: 10px;
+      transform: rotate(585deg);
+      background-color: black;
+    }
+  }
+
+  @keyframes revert2{
+    from {
+      top: 0px;
+      transform: rotate(0deg);
+      background-color: grey;
+    }
+  
+    to {
+      top: -11px;
+      transform: rotate(-410deg);
+      background-color: black;
+    }
+  }
