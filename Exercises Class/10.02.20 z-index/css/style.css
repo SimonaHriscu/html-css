@@ -67,28 +67,28 @@ body{
 
 .photo1:hover{
     filter: none;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
     width: 300px;
     height: 300px;
     z-index:1;
 }
 .photo2:hover{
     filter: none;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
     width: 300px;
     height: 300px;
     z-index:1;
 }
 .photo3:hover{
     filter: none;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
     width: 300px;
     height: 300px;
     z-index:1;
 }
 .photo4:hover{
     filter: none;
-    transition: ease-in 1s;
+    transition: ease-in 0.5s;
     width: 300px;
     height: 300px;
     z-index:1;
