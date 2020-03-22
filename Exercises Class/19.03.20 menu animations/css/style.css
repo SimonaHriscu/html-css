@@ -226,8 +226,8 @@ body{
     }
   }
 
-  /* The revert version
-  .disappear-line-menu {
+  /* The revert version */
+  /* .disappear-line-menu {
     margin: 30px auto;
     background-color: lightgray;
     width: 4rem;
@@ -265,34 +265,39 @@ body{
       
       transform: translateX(0px);
       background-color: grey;
+      opacity: 0.6;
     }
   
-    20% {
+    50% {
       transform: translateX(10px);
       background-color: grey;
+      opacity: 0.4;
       
     }
-    30%{
+    100%{
       transform: translateX(80px);
       background-color: white;
+      opacity: 0;
     }
     
   }
 
   @keyframes disappear2{
     0% {
-      
       transform: translateX(0px);
       background-color: grey;
+      opacity: 0.6;
     }
   
     50% {
       transform: translateX(-10px);
       background-color: grey;
+      opacity: 0.4;
       
     }
     100%{
       transform: translateX(-80px);
       background-color: white;
+      opacity: 0;
     }
   } */
