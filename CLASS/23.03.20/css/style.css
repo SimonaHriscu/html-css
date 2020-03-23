@@ -22,7 +22,31 @@
     background-color: lime;
     width: 50%;
     height: 100%;
+    
   }
+  .footer{
+      width: 100vw;
+      height: 30vh;
+      background-image: url(../img/background-blur-bokeh-bright-220067.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-clip-path: polygon(50% 0%, 91% 0, 98% 35%, 88% 60%, 54% 53%, 51% 80%, 21% 91%, 0 74%, 2% 35%, 39% 24%);
+
+  }
+
+  .curved{
+      background-color: maroon;
+      color:white;
+      text-align: center;
+  }
+  .curved h1{
+      font-size: 6rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .curved p{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
   
   /* PLs use more header footer */
   
