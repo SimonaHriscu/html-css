@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;    
 }
-
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 3vh;
+    column-gap: 3vh; 
+}
+.gallery img{
+    width: 100%;
+}
 .box1{
     background-color: #a1e6e3;
     justify-self: center;
@@ -31,13 +39,4 @@ main{
     grid-template-areas: 
     "box1 box2"
     "box3 box3";
-}
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 3vh;
-    column-gap: 3vh; 
-}
-.gallery img{
-    width: 100%;
 }
