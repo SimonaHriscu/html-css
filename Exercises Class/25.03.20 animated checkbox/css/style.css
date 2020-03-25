@@ -81,7 +81,7 @@ body.dark-mode {
     background-color: #111;
     color: #eee;
   }
-body.light-mode {
+body{
     background-color: #eee;
     color: #111;
   }
