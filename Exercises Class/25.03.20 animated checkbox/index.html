@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+    <title>Slide checkbox</title>
+</head>
+<body id="body" class="light-mode">
+      <div class="center">
+       <input type="checkbox" name="dark_light" id="switch" onclick="nightMode()">
+   </div>
+    
+
+    <!-- JS -->
+   <script>
+    const nightMode=()=> {
+     const body = document.getElementById("body");
+     const currentClass = body.className;
+      body.className =
+        currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+    }
+  </script>
+</body>
+</html>
