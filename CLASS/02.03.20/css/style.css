@@ -81,7 +81,7 @@ html {
   contains the substring */
   div[class*="text"]{
       font-size: 2rem;
-      width: 200px;
+      width: 400px;
       height: 200px;
   }
   
@@ -131,7 +131,7 @@ div[class="text-main"]:after{
 
 /* :before is CSS2 ::before is CSS3 */
 div[class="text-main"]::before{
-    content: " Simona ";
+    content: " Hello ";
 }
 /* div[class="text-main"]:after{
     
@@ -142,8 +142,19 @@ div[class="text-main"]::before{
     border: 3px black dashed;
 }
 
-  /* :nth-child() */
-  /* :nth-child() */
-  
-  /* ::after  
-  :after css2 and ::after is css3*/
+/* :nth-child() */
+
+tr:nth-child(2n){
+    background-color: seagreen;
+    
+}
+
+tr:nth-child(3n){
+    background-color:black;
+    color: white;
+}
+
+tr:nth-last-child(1){
+    background-color: saddlebrown;
+    
+}
