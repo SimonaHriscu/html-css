@@ -59,9 +59,13 @@ h1{
     background-image: url(../img/Canva\ -\ Green\ Plant.jpg);
     -webkit-background-clip: text;
     background-clip: text;
-    font-weight: bolder;
-    
-    
+    font-weight: bolder;   
+}
+.ex5{
+    background-image: url(../img/bird.png);
+    background-size: 55rem;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
