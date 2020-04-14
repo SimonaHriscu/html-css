@@ -7,23 +7,27 @@
     line-height: 140px;
     color: white;
     display: flex;
-    flex-direction: row;  
+    flex-direction: column;  
     flex-wrap: wrap;
+    
+    align-content: center;
+    
+
 }
 .one{
     background-color:#FFCF61;
     width: 150px;
     height: 150px;
-    margin: 10px;
-    flex-grow: 1;   
+    margin-left: 200px;
+       
 }
 
 .two{
     background-color:#FFCF61;
     width: 350px;
     height: 150px;
-    margin: 10px;
-    flex-grow: 1;
+   
+    
     /* order: 1; */
 }
 
@@ -31,23 +35,68 @@
     background-color:#FFCF61;
     width: 150px;
     height: 150px;
-    margin: 10px;
-    flex-grow: 1;
+    margin-left: 200px;
+   
+ 
 }
 .four{
     background-color:#FFCF61;
     width: 250px;
     height: 150px;
-    margin: 10px;
-    flex-grow: 1;
+    margin-left: 100px;
+   
+    
 }
 
 .five{
     background-color:#FFCF61;
     width: 150px;
     height: 150px;
-    margin: 10px;
-    flex-grow: 1;
+    margin-left: 200px;
+   
+    
+}
+
+.six{
+    background-color:#FFCF61;
+    width: 150px;
+    height: 150px;
+    
+   
+       
+}
+
+.seven{
+    background-color:#FFCF61;
+    width: 350px;
+    height: 150px;
+   
+    
+    /* order: 1; */
+}
+
+.eight{
+    background-color:#FFCF61;
+    width: 150px;
+    height: 150px;
+    
+   
+    
+}
+.nine{
+    background-color:#FFCF61;
+    width: 250px;
+    height: 150px;
+   
+    
+}
+
+.ten{
+    background-color:#FFCF61;
+    width: 150px;
+    height: 150px;
+   
+    
 }
 
 
