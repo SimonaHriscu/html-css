@@ -1,0 +1,7 @@
+# this is the ignore list
+
+dist/
+
+src/styles/
+
+node_modules/
