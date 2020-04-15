@@ -6,20 +6,53 @@
   .mini-container1 {
     flex-grow: 3;
     background-color: color(container1);
+    &:hover .container-info {
+      width: 11vw;
+      font-size: 1.1rem;
+      color: white;
+      background-color: color(info-background);
+      text-align: center;
+      opacity: 1;
+      transition: ease-in-out 0.3s;
+    }
   }
   .mini-container2 {
     flex-grow: 2;
     background-color: color(container2);
+    &:hover .container-info {
+      width: 11vw;
+      font-size: 1.1rem;
+      color: white;
+      background-color: color(info-background);
+      text-align: center;
+      opacity: 1;
+      transition: ease-in-out 0.3s;
+    }
   }
   .mini-container3 {
     flex-grow: 1;
     background-color: color(container3);
+    &:hover .container-info {
+      width: 11vw;
+      font-size: 1.1rem;
+      color: white;
+      background-color: color(info-background);
+      text-align: center;
+      opacity: 1;
+      transition: ease-in-out 0.3s;
+    }
   }
   .mini-container4 {
     flex-grow: 1;
     background-color: color(container4);
-    &:hover{
-        display: block;
+    &:hover .container-info {
+      width: 11vw;
+      font-size: 1.1rem;
+      color: white;
+      background-color: color(info-background);
+      text-align: center;
+      opacity: 1;
+      transition: ease-in-out 0.3s;
     }
   }
   .container-info {
@@ -28,6 +61,6 @@
     color: white;
     background-color: color(info-background);
     text-align: center;
-   
+    opacity: 0;
   }
 }
