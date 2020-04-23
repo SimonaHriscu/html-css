@@ -15,4 +15,12 @@ const addToList = () => {
     newLi.appendChild(text);
     document.querySelector(".result").appendChild(newLi);
     document.querySelector("#userText").value = "";
+    let span = document.createElement("span");
+  let textX = document.createTextNode("x");
+  span.className = "close";
+  span.appendChild(textX);
+  let listAll = document.querySelectorAll("li");
+  listAll.forEach((item) => {
+    item.appendChild(span);
+  });
 }
