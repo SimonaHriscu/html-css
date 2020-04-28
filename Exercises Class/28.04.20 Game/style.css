@@ -1,0 +1,23 @@
+body{
+    background-image: url(./img/high_mountain_nature_game_background_dribbble.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.mini{
+    position: absolute;
+    font-size: 2rem;
+    z-index:1;
+}
+
+.final{
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    right: 10%;
+    width: 2rem;
+    height: 2rem;
+    /* background-color: white; */
+}
