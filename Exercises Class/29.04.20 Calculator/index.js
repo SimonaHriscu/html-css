@@ -4,13 +4,22 @@ function calc(){
     
     let elemTwo = document.querySelector("#secondNumber").value;
     let number2 = parseInt(elemTwo);
-    
+    let select = document.getElementById("select").value;
     let result = document.querySelector("#sumResult");
-    let sum = number1 + number2;
-    result.value = sum;
-    return sum;
+    switch (select) {
+        case "+":
+          result.value = number1 + number2;
+          break;
+        case "-":
+          result.value = number1 - number2;
+          break;
+        case "*":
+          result.value = number1 * number2;
+          break;
+        case "/":
+          result.value = number1 / number2;
+          break;
+    
 }
-
-
-
+}
 
