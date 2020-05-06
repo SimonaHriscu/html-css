@@ -26,6 +26,8 @@ const fetchJsonFile = () => {
         });
         document.querySelector(".result").innerHTML = userCard;
     })
+    .catch((error) => console.log(error))
+    document.querySelector(".result").innerHTML = "There was something wrong";
 }
 
 // https://jsonplaceholder.typicode.com/
